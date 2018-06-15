@@ -1,0 +1,219 @@
+/* @import url('https://fonts.googleapis.com/css?family=VT323'); */
+
+body{
+  margin: 0;
+  font-family: 'VT323', monospace;
+  padding: 0px;
+  color:  #FFFFFF;
+}
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: #212121;
+}
+a:visited {
+      color: #212121;
+}
+a:hover{
+      color: #708090;
+      text-shadow: 1px 1px 1px #000;
+}
+.info{
+      font-size: 20px;
+}
+.texto{
+  margin: 0;
+  font-size: 70px;
+}
+.header-main{
+  background-color: black;
+  background-size: cover;
+  /*height: 100vh;  Imgame tela inteira   */ 
+}
+.header-logo-nav {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 120px;
+    grid-template-columns: 1fr 250px;
+    align-items: center;
+    text-transform: uppercase;
+}
+.navigation {
+      display: flex;
+      justify-content: space-around;
+      padding: 0;
+      list-style: none;
+      font-size: 23px;
+}
+.navigation a {
+        color: #ffffff;
+}
+.header-feature {
+    width: 1000px;
+    font-size: 20px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 100px;
+    align-items: center;
+    padding: 50px;
+}
+  .separar{
+    background-color: white;
+    padding: 1px;
+    margin: 0;
+}
+  .sep{
+    background-color: #708090;
+    padding: 2px;
+}
+.k{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    display: grid;
+    grid-template-rows: 50px;
+    align-items: center;
+    padding: 10px;
+}
+.boa {
+  padding: 45px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.nice {
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: 0px 120px;
+}
+.n1 {
+  background: black;
+}
+.n2 {
+  background: black;
+}
+.n3 {
+  background: black;
+}
+.boa .nice img {
+  width: 100px;
+  height: 100px;
+}
+#nin{
+  padding-top: 26px;
+  width: 100px;
+  height: 50px;
+}
+#MTB{
+  background: url(../images/mtbFundo2.jpg) no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  opacity: 1;
+  padding: 10px;
+  height: 100vh;
+}
+.dec {
+    width: auto;
+    margin: 0;
+    display: grid;
+    padding: 20px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 30px;
+  }
+.meme{
+    font-size: 60px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 50px;
+    align-items: center;
+    padding: 10px; 
+  }
+.products {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+.product {
+  text-align: center;
+  box-sizing: border-box;
+}
+.btn  {
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+.background-transparent {
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid #FFFFFF;
+  color: #FFF;
+}
+#lipe{
+  width: 150px;
+  height: 150px;
+}
+#SPEED{
+  background: url(../images/speedFundo.jpg) no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  opacity: 1;
+  padding: 20px;
+  height: 100vh;
+}
+#POTI{
+  background: url(../images/potiFundo.jpg) no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  opacity: 1;
+  padding: 20px;
+  height: 100vh;
+}
+#rodape{
+  background-color: black;
+
+}
+.corpodorodape{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 750px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.coluna1{
+    font-size: 13px;
+    padding-left: 20px;
+  
+}
+.coluna2{
+    font-size: 14px;
+ }
+.imagemdorodape{
+    padding-left: 90vh;
+
+    }
+#imgroda{
+    height: 19px;
+    width: 19px;
+}
+.imagemdorodape a {
+      color: #ffffff;
+}
+.background-transparent:hover{
+  box-shadow: 0px 3px 3px black;
+}
